@@ -1,0 +1,46 @@
+h1,
+h2,
+h3,
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-size: 64px;
+  line-height: 0.5;
+}
+
+h2 {
+  font-size: 32px;
+  line-height: 0.7;
+}
+
+h3 {
+  font-size: 24;
+  line-height: 1;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.realce {
+  font-style: italic;
+  font-weight: 400;
+  color: rgb(123, 255, 0);
+}
+
+.caixa-alta {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: rgb(165, 0, 0);
+  font-style: italic;
+  font-size: 20px;
+}
+
+.link {
+  font-style: italic;
+  text-decoration: dotted underline;
+  color: rgb(0, 0, 255);
+}
