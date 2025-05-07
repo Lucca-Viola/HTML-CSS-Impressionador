@@ -1,0 +1,59 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: gray;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.matricula-se {
+  color: black;
+  font-size: 19.2px;
+}
+
+.login {
+  font-size: 19.2px;
+}
+
+.titulo-principal {
+  font-size: 39.8px;
+}
+
+.p-titulo-pri {
+  color: #04effb;
+  font-size: 19.2px;
+}
+
+.aprender {
+  color: black;
+  /*background-color: #00ff88;*/
+  font-size: 19.2;
+}
+
+.con-cur {
+  font-size: 33.2px;
+}
+
+.realce-curfor {
+  color: #04effb;
+}
+
+.formt-pess {
+  font-size: 13.3px;
+}
+
+.qaprender {
+  color: black;
+}
+
+.ens-trad {
+  color: red;
+  font-size: 27.6px;
+}
+
+.ens-hash {
+  font-size: 27.6px;
+}
