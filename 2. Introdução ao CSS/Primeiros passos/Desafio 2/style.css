@@ -1,5 +1,5 @@
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat", system-ui, sans-serif;
   background-color: gray;
   color: white;
 }
@@ -56,4 +56,37 @@ a {
 
 .ens-hash {
   font-size: 27.6px;
+}
+
+.h1-1 {
+  font-size: 47.8px;
+}
+
+.realce-h1-1 {
+  color: #04effb;
+}
+
+.tamn-h2-2 {
+  font-size: 47.8px;
+}
+.tamn-9-2 {
+  font-size: 9.2px;
+}
+
+.canal-hst-t {
+  color: black;
+  font-size: 16px;
+}
+
+.canal-hst-p {
+  color: #ffa94d;
+  font-size: 16px;
+}
+
+.tamn-h2-3 {
+  font-size: 27.6px;
+}
+
+.menos-branco {
+  color: #ffffffb3;
 }
