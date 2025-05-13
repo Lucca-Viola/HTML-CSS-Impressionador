@@ -16,7 +16,10 @@
               id="name"
               name="name"
               type="name"
+              pattern="[a-zA-Z]+"
+              title="Insira somente letras"
               placeholder="Seu primeiro nome"
+              required
             />
           </div>
 
@@ -30,6 +33,15 @@
             />
           </div>
 
+          <div>
+            <label for="phone">Telefone</label>
+            <input
+              id="phone"
+              name="phone"
+              type="number"
+              placeholder="Seu telefone para contato"
+            />
+          </div>
           <button type="submit">Enviar</button>
         </form>
       </section>
