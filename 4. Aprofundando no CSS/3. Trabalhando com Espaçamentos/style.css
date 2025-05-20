@@ -1,0 +1,12 @@
+p {
+  /* Todos os lados*/
+  /*margin: 10px;*/
+
+  /* Em cima e em baixo 10px, de um lado e do outro 25px*/
+  /*margin: 10px 25px;*/
+
+  /* Cada lado separadamente. Em cima, direita, embaixo e esquerda*/
+  margin: 10px 20px 30px 40px;
+  background-color: red;
+  padding: 10px 20px 30px 40px;
+}
