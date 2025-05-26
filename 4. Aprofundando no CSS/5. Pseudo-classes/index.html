@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pseudo-Classes</title>
+  </head>
+  <body>
+    <style>
+      /* LVHA */
+      /* link,visited, houver, active */
+
+      a:link,
+      a:visited {
+        color: blue;
+        font-weight: 700;
+        font-style: italic;
+      }
+
+      a:hover,
+      a:active {
+        color: green;
+      }
+
+      p:hover {
+        color: red;
+        font-size: large;
+      }
+    </style>
+    <main>
+      <p>Meu parágrafo</p>
+      <a href="https://www.google.com">www.google.com</a>
+    </main>
+  </body>
+</html>

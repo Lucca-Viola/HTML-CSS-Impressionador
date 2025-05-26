@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pseudo-Elemento</title>
+  </head>
+  <body>
+    <style>
+      p::first-letter {
+        font-size: 60px;
+        font-weight: 700;
+      }
+
+      p::first-line {
+        color: red;
+      }
+
+      p::after {
+        content: "Lucca";
+        font-weight: 700;
+      }
+
+      p::before {
+        content: "Lucca";
+        font-weight: 700;
+      }
+    </style>
+    <main>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla lacus
+        neque, porttitor at velit ac, aliquet cursus arcu. Sed quis nisi
+        placerat, luctus velit in, auctor neque. Sed tincidunt viverra risus at
+        ullamcorper. Pellentesque ut placerat nulla. Integer commodo malesuada
+        nulla, sit amet dictum magna condimentum at. Nam nec dictum massa. In id
+        mollis purus. Phasellus dignissim euismod dui, vitae fringilla nulla
+        semper at. Orci varius natoque penatibus et magnis dis parturient
+        montes, nascetur ridiculus mus. Nulla facilisi. Nulla sodales leo a
+        porta dictum. Curabitur sagittis ipsum quis imperdiet lacinia.
+      </p>
+    </main>
+  </body>
+</html>
