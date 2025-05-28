@@ -1,0 +1,18 @@
+html {
+  font-size: 10px;
+}
+
+#Botão {
+  background: blue;
+  color: white;
+  border-radius: 50px;
+  border: none;
+  padding: 10px 20px;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#Botão:hover {
+  background-color: green;
+}
