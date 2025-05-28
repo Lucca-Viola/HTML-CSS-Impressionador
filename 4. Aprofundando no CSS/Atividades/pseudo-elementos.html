@@ -1,0 +1,44 @@
+<!-- Use ::first-letter para aumentar o tamanho da primeira letra de um parágrafo e ::after para adicionar um texto após o parágrafo.
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pseudo-Elementos</title>
+  </head>
+  <body>
+    <style>
+      html {
+        font-size: 10px;
+      }
+
+      p {
+        font-size: 2rem;
+      }
+
+      p::first-letter {
+        font-size: 5rem;
+      }
+
+      p::after {
+        content: " - Lucca Schwingel Viola";
+      }
+    </style>
+
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
+      feugiat, erat vitae ultricies mattis, nisl neque venenatis nulla, ac
+      consectetur nisl tortor pellentesque tellus. Ut eu ultricies enim.
+      Praesent dictum placerat venenatis. Pellentesque a nisi id purus sagittis
+      ullamcorper. Donec mollis fringilla nibh nec auctor. Maecenas ac sem
+      magna. Nullam placerat mattis dictum. Nam sit amet volutpat massa. Proin
+      non interdum magna, vitae volutpat ante. Cras maximus nisi quam, et varius
+      neque lacinia sit amet. Pellentesque feugiat, nisl eget posuere iaculis,
+      leo orci tincidunt ligula, eget finibus quam ipsum eget mauris. Mauris
+      rutrum tellus vitae justo vehicula, sollicitudin accumsan libero
+      convallis.
+    </p>
+  </body>
+</html>
