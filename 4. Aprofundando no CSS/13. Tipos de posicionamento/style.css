@@ -1,0 +1,27 @@
+html {
+  font-size: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  position: relative;
+  font-size: 1.6rem;
+  height: 25rem;
+  width: 40rem;
+  background-color: green;
+}
+
+a {
+  /* O elemento em questão está sendo posicionado absolutamente em relação a quem? A resposta deverá estar com posicionamento relativo */
+  position: absolute;
+  color: white;
+  bottom: 0;
+  right: 0;
+}
+
+/* position: static, relative, absolute, fixed */
